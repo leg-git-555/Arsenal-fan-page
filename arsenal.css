@@ -1,0 +1,4 @@
+.flower {
+    max-width: 50%; /* You can adjust the percentage to your desired maximum width */
+    height: auto;    /* This maintains the image's aspect ratio */
+}
