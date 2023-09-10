@@ -1,4 +1,67 @@
+nav {
+    background-color: #ebabda; /* Background color for the navigation bar */
+    //padding: 5px 0; /* Add some padding to space out the links */
+}
+
+.nav-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    justify-content: center; 
+}
+
+.nav-menu li {
+    margin: 0 15px; /* Add some spacing between menu items */
+}
+
+
+.nav-menu a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #741919; /* Text color for the links */
+    font-weight: bold; /* Make the text bold */
+}
+
+.nav-menu a:hover {
+    color: aqua; /* Change link color on hover */
+}
+
 .flower {
     max-width: 50%; /* You can adjust the percentage to your desired maximum width */
     height: auto;    /* This maintains the image's aspect ratio */
 }
+
+.picBox {
+    display:flex;
+    justify-content: center;
+    border: 3px solid;
+    flex-wrap: wrap;
+}
+
+.pic {
+    max-width: 100%;
+    height: auto;
+    border: 3px solid;
+    margin: 10px
+}
+
+
+.test{
+    background-color: aqua;
+}
+
+@media screen and (max-width: 768px) {
+    .picBox {
+        justify-content: flex-start; /* Align items to the start (left) */
+    }
+
+    .pic {
+        max-width: 100%; /* Allow images to take up the full width of their container */
+    }
+}
+
+.page {
+    display: grid
+}
+
+
